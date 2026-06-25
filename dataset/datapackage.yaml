@@ -16,15 +16,21 @@ resources:
         - name: unidade
           type: string
           description: "Siglas das unidades FHEMIG: CSSFA (Casa de Saúde São Francisco de Assis, em Bambuí); CSSFE (Casa de Saúde Santa Fé, em Três Corações); CSSI (Casa de Saúde Santa Izabel, em Betim); CHPB (Centro Hospitalar Psiquiátrico de Barbacena, em Barbacena); HAC (Hospital Alberto Cavalcanti, em Belo Horizonte); HCM (Hospital Cristiano Machado, em Sabará); HEM (Hospital Eduardo de Menezes, em Belo Horizonte); HIJPII (Hospital Infantil João Paulo II, em Belo Horizonte); HJXXIII (Hospital João XXIII, em Belo Horizonte); HJK (Hospital Júlia Kubitschek, em Belo Horizonte); HMAL (Hospital Maria Amélia Lins, em Belo Horizonte); HRAD (Hospital Regional Antônio Dias, em Patos de Minas); HRBJA (Hospital Regional de Barbacena Dr José Américo, em Barbacena); HRJP (Hospital Regional Dr João Penido, em Juiz de Fora); IRS (Instituto Raul Soares, em Belo Horizonte); MOV (Maternidade Odete Valadares, em Belo Horizonte); MGT (MG Transplantes)."
+       - name: setor_saida
+          type: string
+          description: "Setor de saída."    
         - name: ano
           type: integer
           description: "Ano de referência."
         - name: mes
           type: integer
           description: "Mês de referência."
-        - name: setor_saida
-          type: string
-          description: "Setor de saída."
+        - name: paciente_dia
+          type: integer
+          description: "Unidade de medida que representa a assistência prestada a um paciente internado durante um dia hospitalar."
+        - name: saida
+          type: integer
+          description: "Saída hospitalar (alta, evasão, desistência, transferência externa ou óbito)."
         - name: mp_por_setor_de_saida
           type: string
           description: "Média de permanência por setor de saída hospitalar (tempo médio de internação hospitalar total dos pacientes que deram saída no setor)."
