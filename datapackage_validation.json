@@ -1,6 +1,6 @@
 {
   "version": "4.16.6",
-  "time": 2.569,
+  "time": 0.154,
   "errors": [],
   "tasks": [
     {
@@ -57,13 +57,13 @@
         "scheme": "file",
         "title": "Média de permanência por setor de saída",
         "stats": {
-          "hash": "318063369a3e80210aa203eaacf1be9d",
-          "bytes": 7261074,
+          "hash": "6f511cbd76ee6ac49cfa58bb93d32fbf",
+          "bytes": 531098,
           "fields": 7,
-          "rows": 150000
+          "rows": 7879
         }
       },
-      "time": 2.559,
+      "time": 0.144,
       "scope": [
         "hash-count-error",
         "byte-count-error",
